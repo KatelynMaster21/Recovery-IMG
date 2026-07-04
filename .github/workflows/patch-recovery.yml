@@ -32,6 +32,6 @@ jobs:
           name: "Fastbootd-patched-recovery-${{ github.event.inputs.model }}"
           path: output/*.tar
         env:
-  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: "true"
+  FORCE_JAVASCRIPT_ACTIONS_TO_NODE24: true
 
           
